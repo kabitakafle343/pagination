@@ -1,0 +1,55 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.api{
+  height: 20vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+  margin-top: 20px;
+  margin-bottom: 29px;
+  background-color: bisque;
+}
+
+.main{
+  display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+  flex-direction: column;
+margin-left: 110%;
+}
+.pagination{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+ width:25%;
+list-style :none;
+height: 20%;
+justify-content: center;
+height: 40px;
+width: 100%;
+}
+
+.pagination a{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 5px;
+ 
+}
+.pagination .active a{
+  background-color: blue;
+  color: aliceblue;
+  transition: all 0.6sec ease-in-out;
+}
+
+
